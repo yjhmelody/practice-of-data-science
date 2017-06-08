@@ -72,3 +72,4 @@ def normal_two_sided_bounds(p, mu=0, sigma=1):
 
 if __name__ == '__main__':    
     print(normal_probability_between(-5, 5))
+    print(normal_lower_bound(0.5))
